@@ -1,0 +1,15 @@
+# Datasets (DO NOT PUSH TO GITHUB)
+resized_train/
+resized_train_cropped/
+trainLabels.csv
+trainLabels_cropped.csv
+
+# Generated output & reports
+output_images/
+clinical_batch_report.csv
+test_report.txt
+test_results.json
+
+# Python caches
+__pycache__/
+.pytest_cache/
