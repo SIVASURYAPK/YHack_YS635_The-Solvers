@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Datasets (DO NOT PUSH TO GITHUB)
 resized_train/
 resized_train_cropped/
@@ -13,3 +14,39 @@ test_results.json
 # Python caches
 __pycache__/
 .pytest_cache/
+=======
+# Python environments and cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env/
+.venv/
+*.egg-info/
+
+# Deep Learning / Model Weights (Prevent pushing massive files)
+*.pth
+*.pt
+*.ckpt
+*.weights
+*.onnx
+
+# Project Specific Directories (Datasets & Visual Outputs)
+retinal_dataset/
+preprocessed_images/
+heatmap_outputs/
+manual_verification/
+
+# General Images (Optional: Prevents accidental commits of standalone test images)
+# Uncomment if you want to strictly ignore all loose images in the root
+# *.jpg
+# *.jpeg
+# *.png
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+>>>>>>> b1165bb (Grad-CAM)
